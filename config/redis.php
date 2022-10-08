@@ -22,7 +22,7 @@ if (is_file(config_path() . '/app.php')) {
 return [
     'default' => [
         'host'     => '127.0.0.1',
-        'password' => 'hsk99',
+        'password' => '',
         'port'     => 6379,
         'database' => 0,
         'prefix'   => ($app['project'] ?? 'webman-admin') . ':',

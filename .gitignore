@@ -1,0 +1,4 @@
+vendor
+public/upload
+app/test
+composer.lock
